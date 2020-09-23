@@ -1,4 +1,5 @@
 require "bundler/setup"
+require 'webmock/rspec'
 require "brawlstars_api_wrapper"
 
 RSpec.configure do |config|
